@@ -47,7 +47,7 @@ Steps to reproduce
     # Launch InfluxDB
     docker run -p 8086:8086 \
           -v $PWD:/var/lib/influxdb \
-          influxdb
+          influxdb:1.6.3
           
     # Create DB
     # curl -G http://localhost:8086/query --data-urlencode "q=CREATE DATABASE mydb"
